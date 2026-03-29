@@ -9,10 +9,15 @@ AI Study Assistant is a modular desktop application built using Python and Tkint
 ## Project Structure
 
 AI-Study-Assistant/
+
 │── app.py (Main entry point)
+
 │── chatbot.py (AI logic)
+
 │── task_manager.py (File handling)
+
 │── ui.py (GUI)
+
 │── data/tasks.txt
 
 ---
