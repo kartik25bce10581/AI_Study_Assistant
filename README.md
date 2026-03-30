@@ -87,6 +87,30 @@ If your system uses Python 3:
 python3 main.py
 ```
 
+
+## Execution
+
+Add / View tasks
+
+<img width="1036" height="794" alt="add" src="https://github.com/user-attachments/assets/ee81cdbf-bbc3-4044-9f0a-499e5b5af06b" />
+
+Ask AI
+
+<img width="1029" height="579" alt="Ask AI" src="https://github.com/user-attachments/assets/767bf283-15dd-4413-86e8-8d74e0ce72ed" />
+
+Analytics
+
+<img width="984" height="175" alt="analytics" src="https://github.com/user-attachments/assets/f2409e66-829e-4e0c-965b-5999e7925ae3" />
+
+Delete and Clear / View Tasks
+
+<img width="1033" height="786" alt="Delete and clear" src="https://github.com/user-attachments/assets/601b1749-6fce-4282-9e03-cd4e562eea70" />
+
+Exit
+
+<img width="999" height="181" alt="Exiting" src="https://github.com/user-attachments/assets/767fc434-411a-4b53-b676-8ef677b85b1a" />
+
+
 ---
 
 ## Features
