@@ -1,6 +1,5 @@
 # AI_Study_Assistant
 
-# AI Study Assistant (CLI-Based)
 
 ## Project Overview
 
