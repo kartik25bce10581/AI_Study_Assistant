@@ -1,192 +1,131 @@
 # AI_Study_Assistant
 
+# AI Study Assistant (CLI-Based)
 
 ## Project Overview
 
-AI Study Assistant is a desktop-based productivity application developed using Python and Tkinter. It is designed to help students effectively manage study tasks and receive intelligent study guidance through a built-in AI assistant.
+AI Study Assistant is a command-line based productivity application developed in Python. It helps students manage study tasks, track progress, and receive intelligent study guidance through a built-in rule-based AI assistant.
 
-The application provides an integrated environment where students can plan tasks, track progress, and receive study strategies — all within a clean dark-mode interface.
 
 ---
 
 ## Problem Statement
 
-Students often face multiple challenges such as:
+Students often face challenges such as:
 
 * Poor time management
 * Lack of structured study planning
-* Ineffective revision techniques
+* Ineffective revision methods
 * Exam stress and anxiety
-* Difficulty staying focused and consistent
+* Difficulty staying consistent
 
-This project aims to address these issues through a simple, interactive desktop solution.
-
----
-
-## Proposed Solution
-
-The AI Study Assistant combines:
-
-* Task management system
-* AI-based chatbot guidance
-* Data persistence using file handling
-* User-friendly dark-mode interface
-
-This ensures both usability and practical value for students.
-
----
-
-## Features
-
-### Task Management System
-
-* Add new study tasks
-* Delete selected tasks
-* Clear all tasks
-* View tasks in a structured list
-
-### Data Persistence
-
-* Tasks are saved in a local file (`data/tasks.txt`)
-* Automatically loads tasks on startup
-* No data loss after closing the application
-
-### Study Analytics
-
-* Displays total number of tasks
-* Helps track productivity
-
-### AI Study Assistant
-
-Provides intelligent suggestions on:
-
-* Time management
-* Focus improvement
-* Revision techniques
-* Memory enhancement
-* Exam preparation strategies
-* Stress management
-* Motivation and consistency
-* Practice techniques
-* Note-making strategies
-* Planning and scheduling
-* Sleep and productivity
-
-### User Interface
-
-* Dark mode design
-* Clean layout using frames
-* Interactive and responsive GUI
-* Desktop-based (no browser required)
+This project aims to solve these issues using a simple and practical command-line tool.
 
 ---
 
 ## Tech Stack
 
-* **Programming Language:** Python
-* **GUI Framework:** Tkinter
-* **Concepts Used:**
-
-  * Event-driven programming
-  * File handling (data persistence)
-  * Rule-based AI logic
-
+* **Language:** Python 3
+* **Modules Used:** os (standard library)
 ---
 
 ## Project Structure
 
+```text
 AI-Study-Assistant/
+│── main.py
+│── chatbot.py
+│── task_manager.py
+│── analytics.py
+│── data/
+│    └── tasks.txt
+│── README.md
+```
 
-│── app.py (Main entry point)
+---
 
-│── chatbot.py (AI logic)
+## Environment Setup
 
-│── task_manager.py (File handling)
+### Step 1: Install Python
 
-│── ui.py (GUI)
+Install Python version **3.8 or above**.
 
-│── data/tasks.txt
+Check installation:
 
-## Installation & Setup
+```bash
+python --version
+```
 
-### Step 1: Clone Repository
+or
 
-git clone https://github.com/yourusername/AI-Study-Assistant.git
+```bash
+python3 --version
+```
 
-### Step 2: Navigate to Project Folder
+---
 
+## Clone / Download Repository
+
+```bash
+git clone <your-repository-link>
 cd AI-Study-Assistant
+```
 
-### Step 3: Run the Application
+---
 
-python app.py
+## Run the Project
 
-> Note: Tkinter comes pre-installed with Python.
+Run directly from terminal:
+
+```bash
+python main.py
+```
+
+If your system uses Python 3:
+
+```bash
+python3 main.py
+```
+
+---
+
+## Features
+
+* Add study tasks
+* View all tasks
+* Delete selected tasks
+* Clear all tasks
+* AI study assistant
+* Task analytics
+* Persistent file storage
 
 ---
 
 ## Usage Instructions
 
-1. Enter a study task and click **Add**
-2. Select a task and click **Delete** to remove it
-3. Click **Clear All** to remove all tasks
-4. Ask questions in the AI Assistant section
-5. View total tasks in analytics section
+After running, choose options from menu:
+
+```text
+1. View Tasks
+2. Add Task
+3. Delete Task
+4. Clear All Tasks
+5. Ask AI
+6. Show Analytics
+7. Exit
+```
 
 ---
 
+## Data Storage
 
-## Architecture
+Tasks are automatically saved inside:
 
-app.py → starts application
+```text
+data/tasks.txt
+```
 
-ui.py → handles GUI
-
-chatbot.py → AI logic
-
-task_manager.py → storage
-
----
-
-## Working Principle
-
-The system operates on an **event-driven model**:
-
-* User interactions trigger functions
-* Tasks are stored in memory and saved to a file
-* On startup, tasks are loaded automatically
-* Chatbot processes queries using keyword-based logic
+This file is created automatically if it does not already exist.
 
 ---
-
-## Limitations
-
-* Chatbot is rule-based (not fully AI-powered)
-* Limited analytics functionality
-* No user login system
-
----
-
-## Future Scope
-
-* Integration with advanced AI APIs (ChatGPT)
-* Cloud-based data storage
-* Task editing and prioritization
-* Graph-based productivity analytics
-* Mobile and web versions
-
----
-
-## Applications
-
-* Student productivity tool
-* Study planner
-* AI concept demonstration
-* Educational GUI project
-
----
-
-
----
-
 
